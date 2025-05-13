@@ -1,0 +1,25 @@
+<header class="mb-2">
+    <div class="flex items-center pl-5" style="width: 250px;">
+        <img src="/assets/img/spotifyLogo.png" style="width: 32px;" />
+    </div>
+    <div class="headerContainer">
+        <button class="bg btn">
+            <svg-icon src="/assets/icons/home.svg" [svgStyle]="{'width.px': 32}"></svg-icon>
+        </button>
+        <div class="searchContainer">
+            <svg-icon src="/assets/icons/search.svg" [svgStyle]="{'width.px': 32, 'fill': '#B3B3B3'}"></svg-icon>
+            <input type="text" class="searchInput flex-grow-1" placeholder="What do you want to play?" />
+            <svg-icon src="/assets/icons/folder.svg" class="btn" [svgStyle]="{'width.px': 32, 'fill':'#B3B3B3'}"></svg-icon>
+        </div>
+    </div>
+    <div class="flex items-center justify-end gap-5" style="width: 250px;">
+        <button class="btn text-sm gap-1">
+            <svg-icon src="/assets/icons/download.svg" [svgStyle]="{'width.px': 24, 'fill':'#B3B3B3'}"></svg-icon>
+            <div>Install App</div>
+        </button>
+        <svg-icon src="/assets/icons/notifications.svg" class="btn" [svgStyle]="{'width.px': 22, 'fill':'#B3B3B3'}"></svg-icon>
+        <button class="bg btn">
+            <svg-icon src="/assets/icons/user.svg" [svgStyle]="{'width.px': 32, 'fill':'#B3B3B3'}"></svg-icon>
+        </button>
+    </div>
+</header>

@@ -1,0 +1,36 @@
+<div class="libraryComponent">
+    <div class="headerSection">
+        <div class="header">
+            <div class="font-bold">Your Library</div>
+            <div class="flex items-center gap-2">
+                <button class="create">
+                    <svg-icon src="/assets/icons/add.svg" [svgStyle]="{'width.px': 24, 'fill':'#B3B3B3'}"></svg-icon>
+                    <div class="text-sm">Create</div>
+                </button>
+                <svg-icon src="/assets/icons/expand.svg" class="btn"
+                    [svgStyle]="{'width.px': 24, 'fill':'#B3B3B3'}"></svg-icon>
+            </div>
+        </div>
+        <div class="filters">
+            <div class="flex items-center gap-1">
+                <button class="create filter">
+                    <div class="text-sm">Playlists</div>
+                </button>
+                <button class="create filter">
+                    <div class="text-sm">Artists</div>
+                </button>
+                <button class="create filter">
+                    <div class="text-sm">Albums</div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="flex justify-between" style="padding: 8px 8px 0px">
+            <svg-icon src="/assets/icons/search.svg" class="btn" [svgStyle]="{'width.px': 24, 'fill':'#B3B3B3'}"></svg-icon>
+            <button class="btn text-sm gap-1">
+                <div>Recents</div>
+                <svg-icon src="/assets/icons/list.svg" [svgStyle]="{'width.px': 24, 'fill':'#B3B3B3'}"></svg-icon>
+            </button>
+        </div>
+    </div>
